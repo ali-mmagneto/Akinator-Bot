@@ -4,8 +4,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 START_KEYBOARD = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Github', GITHUB_URL),
-            InlineKeyboardButton('Developer', DEV_URL)   
+            InlineKeyboardButton('Geliştirici Kanalı', GITHUB_URL),
+            InlineKeyboardButton('Geliştirici', DEV_URL)   
         ]
     ]
 )
@@ -45,8 +45,8 @@ AKI_LANG_BUTTON = InlineKeyboardMarkup(
 CHILDMODE_BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Enable", callback_data='c_mode_1'),
-            InlineKeyboardButton("Disable", callback_data='c_mode_0')
+            InlineKeyboardButton("Etkin", callback_data='c_mode_1'),
+            InlineKeyboardButton("Etkisiz", callback_data='c_mode_0')
         ]
     ]
 )
@@ -55,15 +55,15 @@ CHILDMODE_BUTTON = InlineKeyboardMarkup(
 AKI_PLAY_KEYBOARD = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Yes", callback_data='aki_play_0'),
-            InlineKeyboardButton("No", callback_data='aki_play_1'),
-            InlineKeyboardButton("Probably", callback_data='aki_play_3')
+            InlineKeyboardButton("Evet", callback_data='aki_play_0'),
+            InlineKeyboardButton("Hayır", callback_data='aki_play_1'),
+            InlineKeyboardButton("Muhtemelen", callback_data='aki_play_3')
         ],
         [
-            InlineKeyboardButton("I don't know", callback_data='aki_play_2'),
-            InlineKeyboardButton("Probably Not", callback_data='aki_play_4')
+            InlineKeyboardButton("Bilmiyorum", callback_data='aki_play_2'),
+            InlineKeyboardButton("Muhtemelen Hayır", callback_data='aki_play_4')
         ],
-        [   InlineKeyboardButton("Back", callback_data= 'aki_play_5')
+        [   InlineKeyboardButton("Geri", callback_data= 'aki_play_5')
         ]
     ]
 )
@@ -71,8 +71,8 @@ AKI_PLAY_KEYBOARD = InlineKeyboardMarkup(
 AKI_WIN_BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Yes", callback_data='aki_win_y'),
-            InlineKeyboardButton("No", callback_data='aki_win_n'),
+            InlineKeyboardButton("Evet", callback_data='aki_win_y'),
+            InlineKeyboardButton("Hayır", callback_data='aki_win_n'),
         ]
     ]
 )
@@ -81,12 +81,12 @@ AKI_WIN_BUTTON = InlineKeyboardMarkup(
 AKI_LEADERBOARD_KEYBOARD = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Total Guesses", callback_data='aki_lead_tguess'),
-            InlineKeyboardButton("Correct Guesses", callback_data='aki_lead_cguess'),
+            InlineKeyboardButton("Total Tahmin", callback_data='aki_lead_tguess'),
+            InlineKeyboardButton("Doğru Tahmin", callback_data='aki_lead_cguess'),
         ],
         [
-            InlineKeyboardButton("Wrong Guesses", callback_data='aki_lead_wguess'),
-            InlineKeyboardButton("Total Questions", callback_data='aki_lead_tquestions'),
+            InlineKeyboardButton("Yanlış Tahmin", callback_data='aki_lead_wguess'),
+            InlineKeyboardButton("Toplam Soru", callback_data='aki_lead_tquestions'),
         ]
     ]
 )
