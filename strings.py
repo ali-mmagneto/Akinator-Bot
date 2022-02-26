@@ -1,8 +1,8 @@
 
 START_MSG = """
 Merhaba <b>{}</b> ! Ben <b>Akinator Bot</b>.
-Tahmin oyunu oynayabiliriz
-/play bas gitsin
+Tahmin oyunu oynayabiliriz sadece /play komutunu kullan. 
+Botun dilini değiştirnek için /language komutunu kullan.
 """
 
 ME_MSG = """
