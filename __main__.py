@@ -53,7 +53,7 @@ def aki_play_cmd_handler(update: Update, context: CallbackContext) -> None:
     user_id = update.effective_user.id
     msg = update.message.reply_photo(
         photo=open('aki_pics/aki_01.png', 'rb'),
-        caption="Loading..."
+        caption="Yükleniyor..."
     )
     updateTotalGuess(user_id, total_guess=1)
     q = aki.start_game(language=getLanguage(user_id), child_mode=getChildMode(user_id))
@@ -160,7 +160,7 @@ def aki_set_lang(update: Update, context: CallbackContext) -> None:
     lang_code = query.data.split('_')[-1]
     user_id = update.effective_user.id
     updateLanguage(user_id, lang_code)
-    query.edit_message_text(f"Language Successfully changed to {AKI_LANG_CODE[lang_code]} !")
+    query.edit_message_text(f"Dil başarıyla {AKI_LANG_CODE[lang_code]} oldu!")
 
 
 def aki_lang(update: Update, context: CallbackContext) -> None:
