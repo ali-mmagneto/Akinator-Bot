@@ -1,25 +1,25 @@
 
 START_MSG = """
-Hello <b>{}</b> ! I'm <b>Akinator(Unofficial)</b>.
-We can play a guessing game.
-Do <code>/play</code>
+Merhaba <b>{}</b> ! Ben <b>Akinator Bot</b>.
+Tahmin oyunu oynayabiliriz
+/play bas gitsin
 """
 
 ME_MSG = """
-<b>Name :</b> <code>{}</code>
-<b>User Name :</b> <code>{}</code>
-<b>User ID :</b> <code>{}</code>
-<b>Language :</b> <code>{}</code>
-<b>Child Mode :</b> <code>{}</code>
-<b>Total Guess :</b> <code>{}</code>
-<b>Correct Guess :</b> <code>{}</code>
-<b>Wrong Guess :</b> <code>{}</code>
-<b>Unfinished Guess :</b> <code>{}</code>
-<b>Total Questions :</b> <code>{}</code>
+<b>Adı :</b> <code>{}</code>
+<b>Kullanıcı Adı :</b> <code>{}</code>
+<b>ID :</b> <code>{}</code>
+<b>Dil :</b> <code>{}</code>
+<b>Çocuk Modu :</b> <code>{}</code>
+<b>Toplam Tahmin :</b> <code>{}</code>
+<b>Doğru Tahmin:</b> <code>{}</code>
+<b>Yanlış tahmin :</b> <code>{}</code>
+<b>Bitmeyen Tahmin :</b> <code>{}</code>
+<b>Toplam Soru :</b> <code>{}</code>
 """
 
-GITHUB_URL = "https://github.com/notPlasticCat"
-DEV_URL = "https://t.me/f22raptor_uwu"
+GITHUB_URL = "https://t.me/mmagneto3"
+DEV_URL = "https://t.me/mmagneto"
 
 AKI_LANG_CODE = {
     'en': 'English',
@@ -41,14 +41,14 @@ AKI_LANG_CODE = {
 }
 
 AKI_LANG_MSG = """
-Change Playing Language.
-<b>NOTE : This does not change the Bot language.</b>
-<b>Current Language :</b> <pre>{}</pre>
+Oyun Dilini Değiştir.
+<b>NOT : Bu Bot dilini değiştirmez.</b>
+<b>Geçerli Dil :</b> <pre>{}</pre>
 """
 
 CHILDMODE_MSG = """
-If Child mode is enabled, akinator won't show any NSFW content.
-<b>Current Status :</b> <pre>Child mode is {} !</pre>
+Çocuk mod etkinleştirilmişse, akinator herhangi bir NSFW içeriği göstermez.
+<b>Geçerli Durum :</b> <pre>Çocuk Modu is {} !</pre>
 """
 
-AKI_FIRST_QUESTION = "This is the first question. You can't go back any further!"
+AKI_FIRST_QUESTION = "Bu ilk soru. Daha fazla geri dönemezsin!"
